@@ -26,22 +26,22 @@ const [locationInfo, setLocationInfo] = useState(null)
  
 
   return (
-    <main className={"  bg-center h-screen p-20 gap-10 bg-[url('public/background1.svg')] bg-cover overflow-y-auto"}>   
+    <main className={"  bg-center h-screen p-20 gap-10 bg-[url('/background1.svg')] bg-cover overflow-y-auto"}>   
       <div className="grid justify-center items-center">
-        <img src="public/rick.png"  width={400} alt="" />
+        <img src="/rick.png"  width={400} alt="" />
       </div>
       <Location locationInfo={locationInfo} 
       setLocationInfo={setLocationInfo}/>
       <div className="grid justify-center items-center p-20 gap-10 ">
         <img className="h-full w-full object-cover " 
-         src="public/portal2.png" 
+         src="/portal2.png" 
          width={1000}
          alt="" />
       </div>
       <ResidenList  residents={locationInfo?.residents ?? []}/>
       <div className="flex justify-center items-center p-20 gap-10 ">
         <img className="h-full w-full object-cover " 
-         src="public/portal.svg"
+         src="/portal.svg"
          width={1000}
           alt="" />
       </div>
