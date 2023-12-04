@@ -16,7 +16,7 @@ const ResidenList = ({residents}) => {
   },[residents])
    
   return (
-   <section className="max-w-[1200px] mx-auto ">
+   <section className="max-w-[1200px] mx-auto w-auto">
      <section className="grid gap-8 grid-cols-[repeat(auto-fill,_250px)] justify-center
       bg-black/5 text-white  overflow-hidden shadow-lg shadow-black/10">
         {

@@ -20,7 +20,7 @@ const Location = ({locationInfo, setLocationInfo}) => {
   
   
   return (
-   <section className=" bg-black/5 grid justify-center items-center p-4 image-[url(public/dark-green.jpg)]">
+   <section className=" bg-black/5 grid justify-center items-center p-4 ">
         <form 
         className="grid  gap-8 md:flex justify-center items-center p-4"
         onSubmit={handleSubmit }>

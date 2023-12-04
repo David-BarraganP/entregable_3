@@ -32,19 +32,9 @@ const [locationInfo, setLocationInfo] = useState(null)
       </div>
       <Location locationInfo={locationInfo} 
       setLocationInfo={setLocationInfo}/>
-      <div className="grid justify-center items-center p-20 gap-10 ">
-        <img className="h-full w-full object-cover " 
-         src="/portal2.png" 
-         width={1000}
-         alt="" />
-      </div>
+     
       <ResidenList  residents={locationInfo?.residents ?? []}/>
-      <div className="flex justify-center items-center p-20 gap-10 ">
-        <img className="h-full w-full object-cover " 
-         src="/portal.svg"
-         width={1000}
-          alt="" />
-      </div>
+     
     </main>
   )
 }
