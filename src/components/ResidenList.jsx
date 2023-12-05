@@ -16,14 +16,18 @@ const ResidenList = ({residents}) => {
   },[residents])
    
   return (
-   <section className="max-w-[1200px] mx-auto w-auto">
+   <section className="max-w-[1200px] mx-auto ">
      <section className="grid gap-8 grid-cols-[repeat(auto-fill,_250px)] justify-center
-      bg-black/5 text-white  overflow-hidden shadow-lg shadow-black/10">
+      bg-black/5 text-white ">
         {
             residenInCurrenPage.map((resident) => (
             <ResidenCard  key={resident} residentURL={resident}/>
             ))}
     </section>
+    <div className="p-4 bg-cover">
+      <img src="/portal.svg"
+       alt="" />
+     </div>
     {/* pagination */}
     <ul className="flex justify-center p-4 gap-10 flex-wrap items-center bg-black/5">
       {
@@ -37,6 +41,7 @@ const ResidenList = ({residents}) => {
         </li> ))
       }
     </ul>
+    
 
    </section>
   )

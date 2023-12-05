@@ -21,7 +21,7 @@ const ResidenCard = ({residentURL}) => {
     },[])
     
   return (
-    <article className=" border-4  border-lime-900 rounded-md  w-auto ">
+    <article className=" border-4  border-lime-900 rounded-md ">
         <header className="relative ">
             <img className="rounded-md" 
             src={residenInfo?.image} alt="" />
