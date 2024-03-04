@@ -32,8 +32,7 @@ const ResidenCard = ({residentURL}) => {
                 <span>{residenInfo?.status}</span>
             </div>
         </header>
-            <section className=" bg-black/5  text-white rounded-lg overflow-hidden shadow-lg shadow-black/10
-             ">
+            <section className=" bg-black/5  text-white rounded-lg overflow-hidden shadow-lg shadow-black/10">
                 <h5 className=" line-clamp-1 grid justify-center items-center font-bold text-xl mb-4  "
                 >{residenInfo?.name}</h5>
                 <ul>

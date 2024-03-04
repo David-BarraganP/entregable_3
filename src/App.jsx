@@ -32,9 +32,6 @@ const [locationInfo, setLocationInfo] = useState(null)
       </div>
       <Location locationInfo={locationInfo} 
       setLocationInfo={setLocationInfo}/>
-     <div className="p-4 bg-cover">
-      <img src="/portal.svg" alt="" />
-     </div>
       <ResidenList  residents={locationInfo?.residents ?? []}/>
     
      

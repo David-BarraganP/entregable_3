@@ -24,9 +24,9 @@ const ResidenList = ({residents}) => {
             <ResidenCard  key={resident} residentURL={resident}/>
             ))}
     </section>
-    <div className="p-4 bg-cover">
+    <div className="p-6 bg-cover">
       <img src="/portal.svg"
-       alt="" />
+       />
      </div>
     {/* pagination */}
     <ul className="flex justify-center p-4 gap-10 flex-wrap items-center bg-black/5">
